@@ -1,0 +1,23 @@
+DEVICE_PATH := device/Huawei/ELE
+# For building with TWRP minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
+
+# Architecture (arm64)
+TARGET_ARCH := arm64
+TARGET_ARCH_VARIANT := armv8-a
+TARGET_CPU_ABI := arm64-v8a
+TARGET_CPU_ABI2 :=
+TARGET_CPU_VARIANT := generic
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := ELE
+
+# File systems
+BOARD_HAS_LARGE_FILESYSTEM := true
+BOARD_SYSTEMIMAGE_PARTITION_TYPE := ext4
+BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
+TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USERIMAGES_USE_F2FS := true
+
+# Kernel
+BOARD_KERNEL_CMDLINE := buildvariant=user
