@@ -14,5 +14,5 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 PRODUCT_DEVICE := ELE
 PRODUCT_NAME := omni_ELE
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := Huaqwi P30
+PRODUCT_MODEL := Huawei P30
 PRODUCT_MANUFACTURER := Huawei
